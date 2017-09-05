@@ -1,0 +1,29 @@
+extends ../assets/layout/layout.jade
+
+block head
+    link(rel='stylesheet', href='../assets/css/contact.css')
+    title Realspace Photography / Contact
+    script var activePage = 'contact';
+
+block body
+    .carousel
+        .container
+            .jumbo.panel.panel-default
+                .panel-body.text-center
+                    img(src='../assets/images/nav-logo.png', width='200')
+                    h3 Virtual Reality Tours / Aerial Imagery / Photography and Editing
+                    hr
+                    h2.hidden-xs
+                        a(href='mailto:contact@realspacephotography.com') contact@realspacephotography.com
+                    h2.lead.visible-xs
+                        a(href='mailto:contact@realspacephotography.com') contact@realspacephotography.com
+                    hr
+                    #brands
+                        a.brand.label.label-primary(href='https://www.facebook.com/realspacephotography', target='_blank')
+                            i.fa.fa-facebook
+                        | &nbsp;
+                        a.brand.label.label-info(href='https://twitter.com/realspacemedia', target='_blank')
+                            i.fa.fa-twitter
+                        | &nbsp;
+                        a.brand.label.label-danger(href='https://www.youtube.com/channel/UC_A8VOT0vtowO4styXadzwQ/videos', target='_blank')
+                            i.fa.fa-youtube

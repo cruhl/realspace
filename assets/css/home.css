@@ -1,0 +1,58 @@
+.carousel {
+    background-image: url("../images/home/carousel/birds-eye-pool.jpg");
+}
+
+#portfolio-btn {
+    margin-top: 1em;
+}
+.jumbo-panel {
+    height: 12em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+    background-position: center center;
+    background-size: cover;
+
+    text-align: center;
+}
+    .jumbo-panel > h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 0 0.1em 1em hsla(0, 0%, 0%, 1);
+        color: white;
+    }
+    .vr-tours {
+        background-image:
+            linear-gradient(
+                hsla(0, 0%, 0%, 0.2),
+                hsla(0, 0%, 0%, 0.2)
+            ),
+            url("../images/home/jumbo-panel-vr-tours.jpg");
+    }
+    .drones {
+        background-image:
+            linear-gradient(
+                hsla(0, 0%, 0%, 0.2),
+                hsla(0, 0%, 0%, 0.2)
+            ),
+            url("../images/home/jumbo-panel-drones.jpg");
+    }
+    .photography {
+        background-image:
+            linear-gradient(
+                hsla(0, 0%, 0%, 0.2),
+                hsla(0, 0%, 0%, 0.2)
+            ),
+            url("../images/home/jumbo-panel-photography.jpg");
+    }
+
+#info {
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    text-align: center;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}

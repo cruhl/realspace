@@ -1,0 +1,87 @@
+extends ../assets/layout/layout.jade
+
+block head
+    link(rel='stylesheet', href='../assets/css/portfolio.css')
+    title Realspace Photography / Portfolio
+    script var activePage = 'portfolio';
+
+block body
+    #background-wrapper.text-center
+        .content.container
+            .black.row
+                .col-md-12
+                    hr
+                    h1
+                        i.fa.fa-eye.nudge
+                        | VR Tours
+                    hr
+                    p.lead.
+                        The following VR tours were created for active listings
+                        in the St. Louis Metro East. To make your visit more
+                        immersive, try using fullscreen.
+                    .frame-wrap.vr-tour
+                        iframe(
+                            src='https://my.matterport.com/show/?m=G23M6VJFK1Z',
+                            frameborder='0',
+                            allowfullscreen
+                        )
+                    .frame-wrap.vr-tour
+                        iframe(
+                            src='https://my.matterport.com/show/?m=ideeVZPGeb6',
+                            frameborder='0',
+                            allowfullscreen
+                        )
+                        
+                    hr
+                    h1
+                        i.fa.fa-video-camera.nudge
+                        | Aerial Footage
+                    hr
+                    p.lead.
+                        These aerial clips were produced for a listing agent in
+                        Southern Illinois as part of a Virtual Tour by TourFactory.
+                        For the best expirience, make sure high-definition is on.
+                        
+                    .frame-wrap.youtube
+                        iframe(
+                            src='https://www.youtube.com/embed/nCf9ZQrpNkg',
+                            frameborder='0',
+                            allowfullscreen
+                        )
+                    .frame-wrap.youtube
+                        iframe(
+                            src='https://www.youtube.com/embed/UJ5KxMwM5XQ',
+                            frameborder='0',
+                            allowfullscreen
+                        )
+                                     
+                    hr
+                    h1
+                        i.fa.fa-camera.nudge
+                        | Photography
+                    hr
+                    p.lead.
+                        All of the images in our album were used for official
+                        MLS listings.
+                    a.btn.btn-lg.btn-default(href='#')
+                        i.fa.fa-arrow-up.nudge
+                        | Top
+                    | &nbsp;
+                    a.btn.btn-lg.btn-primary(
+                        href='https://www.facebook.com/media/set/?set=a.1676088725956769.1073741828.1670746429824332&type=1&l=ce45d2c69a',
+                        target='_blank'
+                    )
+                        i.fa.fa-external-link.nudge
+                        | Launch Album
+
+            #more.row
+                .col-md-12
+                    .well.well-lg
+                        h2 Want More?
+                        p.lead
+                            | The media here represents a small fraction of
+                            | Realspace's full portfolio. If you would like
+                            | to see more real-word property showcases, don't
+                            | hesitate to 
+                            a(href='../contact') ask
+                            | .

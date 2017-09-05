@@ -1,0 +1,52 @@
+.navbar {
+    margin-bottom: 0;
+}
+    .navbar a {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .navbar a.active {
+        color: hsl(200, 75%, 50%) !important;
+    }
+
+.carousel {
+    background-position: center center;
+    background-size: cover;
+}
+
+.jumbo {
+    padding-top: 0.25em;
+    padding-bottom: 1em;
+    margin: 6em 2em;
+    background: hsla(0, 0%, 100%, 0.9);
+}
+    .jumbo hr {
+        border-color: hsla(0, 0%, 0%, 0.2);
+    }
+    .jumbo > p {
+        padding: 0 0.5em;
+    }
+
+.content {
+    padding-top: 2em;
+    padding-bottom: 6em;
+}
+.btn-container {
+    height: 4em;
+}
+.nudge {
+    margin-right: 0.5em;
+}
+
+footer {
+    margin: 0 !important;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    border-radius: 0 !important;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}

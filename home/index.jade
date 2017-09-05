@@ -1,0 +1,56 @@
+extends ../assets/layout/layout.jade
+
+block head
+    link(rel='stylesheet', href='../assets/css/home.css')
+    title Realspace Photography / Home
+    script var activePage = 'home';
+
+block body
+    .carousel
+        .container.text-center
+            .jumbo.panel.panel-default 
+                h1 We showcase properties with technology.
+                hr
+                p.lead From residential listings to stadiums, stand out with Realspace.
+                .row
+                    .jumbo-panel.vr-tours.col-sm-4
+                        h3 Virtual Reality Tours
+                    .jumbo-panel.drones.col-sm-4
+                        h3 Aerial Imagery                        
+                    .jumbo-panel.photography.col-sm-4
+                        h3 Photography and Editing
+                #portfolio-btn.btn-container
+                    a.btn.btn-lg.btn-primary(href='../about') Learn More &rsaquo;
+
+    #info.container
+        .row
+            .col-md-4
+                h1
+                    i.fa.fa-home
+                h2 Residential
+                p.lead.
+                    Realspace provides sellers with the tools they need to compete
+                    in today's market.
+                hr.visible-sm.visible-xs
+            .col-md-4
+                h1
+                    i.fa.fa-building
+                h2 Commerical
+                p.lead.
+                    Allow your customers to visit your location before ever
+                    stepping through the door.
+                hr.visible-sm.visible-xs
+            .col-md-4
+                h1
+                    i.fa.fa-cube
+                h2 Everything Else
+                p.lead.
+                    Use our services to present your property or space with the
+                    latest technologies.
+                                            
+    .jumbotron
+        .container.text-center
+            h2 Capture the market with Realspace.
+            a.btn.btn-default.btn-lg(href='../about') About Us
+            | &nbsp;
+            a.btn.btn-primary.btn-lg(href='../contact') Get Started &rsaquo;
